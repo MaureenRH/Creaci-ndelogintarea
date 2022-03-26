@@ -6,8 +6,8 @@
 }
 
 html {
-    width: 1440px;
-    height: 1040px;
+    width: 100%;
+    height: 100%;
     background-color: #f0f2f5;
     touch-action: manipulation;
 }
@@ -22,6 +22,11 @@ body {
 .father {
     width: 1440px;
     height: 680px;
+}
+
+.txt a {
+    text-decoration: none;
+    color: #1870f2;
 }
 
 .principal {
@@ -163,8 +168,12 @@ li {
     height: 20px;
 }
 
-span {
+footer span {
     font-size: 11px;
     width: 1000px;
     height: 15px;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 30px;
+
 }
