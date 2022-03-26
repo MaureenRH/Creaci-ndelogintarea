@@ -69,7 +69,7 @@ input[type="text"] {
     border: 1px solid;
     border-color: #dddfe2;
     border-radius: 6px;
-    margin: 6px 16px 16px 16px;
+    margin: 16px 16px 16px 16px;
     padding: 14px 16px 14px 16px;
 }
 
@@ -101,6 +101,7 @@ input[type="password"] {
 
 .Entrar:hover {
     background-color: #1870f2;
+    cursor: pointer;
 }
 
 .txt {
@@ -131,6 +132,7 @@ hr {
 
 .Ccn:hover {
     background-color: #3ead27;
+    cursor: pointer;
 }
 
 .alter_text {
@@ -140,6 +142,17 @@ hr {
     margin: 28px 0px 100px 0px;
     text-decoration: none;
 }
+
+.alter_text .txt2 {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin: 28px 0px 100px 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
@@ -165,7 +178,7 @@ li {
 
 .btn {
     width: 30px;
-    height: 20px;
+    height: 25px;
 }
 
 footer span {
@@ -173,7 +186,18 @@ footer span {
     width: 1000px;
     height: 15px;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 60px;
     padding-left: 30px;
+    color: #8A8D91;
 
+
+}
+
+.cruz {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer ul:hover{
+    cursor: pointer;
 }
